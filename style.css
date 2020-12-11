@@ -1,0 +1,18 @@
+body{
+    background-image:url('background.jpg');
+}
+h3,button{
+    font-size:25px !important;
+}
+.btn-success:hover{
+    background-color:green;
+}
+button{margin-top:20px;}
+canvas{
+    animation:example 4s linear infinite;
+}
+@keyframes example{
+    0%{box-shadow:10px 10px 13px red,-10px -10px 13px red;}
+    50%{box-shadow:10px 10px 13px yellow,-10px -10px 13px yellow;}
+    100%{box-shadow:10px 10px 13px red,-10px -10px 13px red;}
+}
